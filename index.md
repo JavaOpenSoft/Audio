@@ -1,4 +1,4 @@
-### Welcome to the official Video Package For JUIT website
+### Welcome to the official Audio Package For JUIT website
 [Go Back](https://rishonjr.github.io/JUIT)
 
 [Go Back To Repository](https://github.com/RishonJR/JUIT)
@@ -10,6 +10,10 @@ The Video Package is an addon to JUIT
 ## Links To Reps
 
 Video Package - [View The Package On Github](https://github.com/RishonJR/Video)
+
+## Links To Websites
+
+Video Package - [View The Package On Web](https://rishonjr.github.com/Video)
 
 ## Releases 
 Not Yet Released
