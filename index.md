@@ -20,7 +20,7 @@ Not Yet Released
 
 **Status for these releases:**
 
-**1.1_beta** - not started yet(this release will be part of 1.0, and 1.1 release will be a seperate release)
+**1.1_beta** - not started yet(this release will be part of 1.0, and 1.1_release will be a seperate release)
 
 **1.0_release**- not started yet
 
