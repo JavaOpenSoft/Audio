@@ -16,11 +16,12 @@ Video Package - [View The Package On Github](https://github.com/RishonJR/Video)
 Video Package - [View The Package On Web](https://rishonjr.github.com/Video)
 
 ## Releases 
-Not Yet Released
-
+**1.0 -**
+1.Full JAR - []https://github.com/RishonJR/Video/releases/download/1.0/Video.jar
+2.Zipped JAR - https://github.com/RishonJR/Audio/releases/download/1.0/Audio.jar.zip
 
 ## Information On releases
-**Audio 1.0**- There will be 2 release candidates, and 1 release.
+**Audio 1.0**- There will be 1 release candidates, and 1 release.
 
 **Status for these releases:**
 
