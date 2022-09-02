@@ -13,4 +13,6 @@ module juit.utils.Audio {
 
     opens juit.utils.Audio to javafx.fxml;
     exports juit.utils.Audio;
+    exports packageInfo;
+    opens packageInfo to javafx.fxml;
 }
