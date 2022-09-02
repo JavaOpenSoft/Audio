@@ -1,4 +1,4 @@
-module com.juit.mp3 {
+module juit.utils.Audio {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
