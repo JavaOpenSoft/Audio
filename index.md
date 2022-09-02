@@ -30,10 +30,9 @@ Video Package - [View The Package On Web](https://rishonjr.github.com/Video)
 
 **Status for these releases:**
 
-**1.1_beta** - not started yet(this release will be part of 1.0, and 1.1_release will be a seperate release)
+**1.1.0** - finished
 
-**1.0_release**- not started yet
+**1.0_release**- finished
 
-**1.0_rc2** - not started yet
 
-**1.0_rc1** - Working on the code now
+**1.0_rc1** - finished
