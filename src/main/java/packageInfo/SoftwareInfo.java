@@ -14,7 +14,7 @@ public class SoftwareInfo {
 
     static {
         try {
-            icon = new File(SoftwareInfo.class.getProtectionDomain().getCodeSource().getLocation().toURI() +"/src/main/java/");
+            icon = new File(SoftwareInfo.class.getProtectionDomain().getCodeSource().getLocation().toURI() +"/src/main/java/juit/utils/Audio/Audio.png");
         } catch (URISyntaxException e) {
             throw new RuntimeException(e);
         }
