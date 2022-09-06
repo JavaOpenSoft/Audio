@@ -6,9 +6,9 @@ public class SoftwareInfo {
     private SoftwareInfo() throws URISyntaxException {
 
     }
-    static final String version = "v2.0.0";
+    static final String version = "v2.0.1";
     static final String buildMode=  "Release";
-    static final String buildDate = "2202.9.5";
+    static final String buildDate = "2202.9.7";
     static final String About = "Audio addon for JUIT Library";
     static final File icon;
 

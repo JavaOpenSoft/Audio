@@ -1,6 +1,10 @@
 package juit.utils.Audio;
 
-import javax.sound.sampled.*;
+import javax.sound.sampled.Clip;
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.LineUnavailableException;
+import javax.sound.sampled.UnsupportedAudioFileException;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -10,7 +14,6 @@ public class AudioWAV {
     private AudioInputStream audioInputStream;
     private Clip clip = AudioSystem.getClip();
     public final int LOOP_FOREVER = Clip.LOOP_CONTINUOUSLY;
-    private FloatControl volume = (FloatControl) clip.getControl(FloatControl.Type.MASTER_GAIN);
     public AudioWAV(String File) throws LineUnavailableException, IOException {
         if(!new File(File).isDirectory()) {
             if (new File(File).exists()) {
@@ -34,9 +37,6 @@ public class AudioWAV {
     }
     public File getFile(){
         return file;
-    }
-    public void setVolume(byte playbackVolume) {
-        volume.setValue(playbackVolume);
     }
     public Clip getClip(){
         return clip;
@@ -80,5 +80,11 @@ public class AudioWAV {
     }
     public void deleteFile() {
         boolean temp = this.file.delete();
+    }
+    public String getFilePath(){
+        return file.getAbsolutePath();
+    }
+    public String getFileName(){
+        return file.getName();
     }
 }
