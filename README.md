@@ -1,5 +1,5 @@
 # Audio
-The Audio plugin Of JUIT
+The Audio plugin Of JGADT
 Source Can Be Found Here
 
 Any issues please create a pull request.
