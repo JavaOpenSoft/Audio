@@ -3,9 +3,6 @@ import java.io.File;
 import java.net.URISyntaxException;
 
 public class SoftwareInfo {
-    private SoftwareInfo(){
-
-    }
     static final String version = "v2.1.0";
     static final String buildMode=  "Release";
     static final String buildDate = "2202.9.8";
