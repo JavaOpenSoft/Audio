@@ -3,7 +3,7 @@ import java.io.File;
 import java.net.URISyntaxException;
 
 public class SoftwareInfo {
-    static final String version = "v2.1.0";
+    static final String version = "v2.3.1";
     static final String buildMode=  "Release";
     static final String buildDate = "2202.9.8";
     static final String About = "Audio plugin for JUIT Library";
