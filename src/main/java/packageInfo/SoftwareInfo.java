@@ -3,7 +3,7 @@ import java.io.File;
 import java.net.URISyntaxException;
 
 public class SoftwareInfo {
-    private SoftwareInfo() throws URISyntaxException {
+    private SoftwareInfo(){
 
     }
     static final String version = "v2.0.1";
