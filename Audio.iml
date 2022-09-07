@@ -11,6 +11,5 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="googlecode.soundlibs.jlayer" level="project" />
-    <orderEntry type="library" exported="" name="apache.tika.core" level="project" />
   </component>
 </module>
