@@ -1,4 +1,4 @@
-package juit.utils.Audio;
+package jadt.utils.Audio;
 import javazoom.jl.decoder.JavaLayerException;
 import javazoom.jl.player.Player;
 
@@ -22,7 +22,7 @@ public class AudioMP3{
         int index = fileName.lastIndexOf('.');
         if(index > 0 && file.exists()) {
             String extension = fileName.substring(index + 1);
-            if(!extension.equals("mp3"))throw new FileNotFoundException("File provided is not an mp3 File.");
+            if(!extension.equals("mp3"))throw new IllegalArgumentException("File provided is not an mp3 File.");
         }
         else throw new FileNotFoundException("The MP3 file provided "+ this.file.getAbsolutePath() + " does not exist");
         if(this.file.isFile()) {

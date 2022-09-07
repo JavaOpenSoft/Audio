@@ -1,4 +1,4 @@
-package juit.utils.Audio.packageInfo;
+package jadt.utils.Audio.packageInfo;
 import java.io.File;
 import java.net.URISyntaxException;
 

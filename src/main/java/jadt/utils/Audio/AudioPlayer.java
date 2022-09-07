@@ -1,4 +1,4 @@
-package juit.utils.Audio;
+package jadt.utils.Audio;
 
 public class AudioPlayer {
 }

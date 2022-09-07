@@ -1,4 +1,4 @@
-package juit.utils.Audio;
+package jadt.utils.Audio;
 
 import javax.sound.sampled.Clip;
 import javax.sound.sampled.AudioInputStream;
@@ -15,8 +15,15 @@ public class AudioWAV {
     private Clip clip = AudioSystem.getClip();
     public final int LOOP_FOREVER = Clip.LOOP_CONTINUOUSLY;
     public AudioWAV(String File) throws LineUnavailableException, IOException {
-        if(!new File(File).isDirectory()) {
-            if (new File(File).exists()) {
+        this.file = new File(File);
+        String fileName = file.toString();
+        int index = fileName.lastIndexOf('.');
+        if(index > 0 && file.exists()) {
+            String extension = fileName.substring(index + 1);
+            if(!extension.equals("wav"))throw new IllegalArgumentException("File provided is not an wav File.");
+        }
+        if(file.isFile()) {
+            if (file.exists()) {
                 try {
                     this.file = new File(File);
                     this.audioInputStream = AudioSystem.getAudioInputStream(file);
@@ -25,9 +32,9 @@ public class AudioWAV {
                     e.printStackTrace();
                 }
             }
-            else if(!new File(File).exists())throw new FileNotFoundException("Error: File not found");
+            else if(!file.exists())throw new FileNotFoundException("Error: File not found");
         }
-        else throw new IOException("Error: The file provided is a directory, not a file.");
+        else if(file.isDirectory()) throw new IOException("Error: The file provided is a directory, not a file.");
 
     }
     public void setFile(String File) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
