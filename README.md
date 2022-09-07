@@ -1,5 +1,5 @@
 # Audio
-The Audio plugin Of JGADT
+The Audio plugin Of JADT
 Source Can Be Found Here
 
 Any issues please create a pull request.
