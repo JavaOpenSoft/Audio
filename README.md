@@ -13,6 +13,4 @@ List off upcoming features in 3.0:
 
 - Play ```.ogg``` files
 
-- New ```Audio``` class
 
-- New ```AudioFileException``` class
