@@ -6,8 +6,12 @@ Any issues please create a pull request.
 
 This can be used with or without JADT
 
-List off upcoming features:
-Ability to play full range of loseless Formats
-Play .ogg files
-New Audio class
-New Audio File Exceptoin class
+List off upcoming features in 3.0:
+
+-Ability to play full range of loseless Formats
+
+-Play .ogg files
+
+-New Audio class
+
+-New Audio File Exceptoin class
