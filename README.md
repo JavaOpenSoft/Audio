@@ -8,10 +8,10 @@ This can be used with or without JADT
 
 List off upcoming features in 3.0:
 
--Ability to play full range of loseless Formats
+- Ability to play full range of loseless Formats
 
--Play .ogg files
+- Play .ogg files
 
--New Audio class
+- New Audio class
 
--New Audio File Exceptoin class
+- New Audio File Exceptoin class
