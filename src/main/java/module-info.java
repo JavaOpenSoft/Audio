@@ -1,6 +1,8 @@
 module juit.utils.Audio {
     requires java.desktop;
     requires jlayer;
-    exports jadt.utils.Audio;
-    exports jadt.utils.Audio.packageInfo;
+    requires jaad;
+    requires java.logging;
+    exports jadt.utils.audio;
+    exports jadt.utils.audio.packageInfo;
 }

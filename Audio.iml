@@ -13,5 +13,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="googlecode.soundlibs.jlayer" level="project" />
+    <orderEntry type="library" exported="" name="jaad-0.8.4" level="project" />
+    <orderEntry type="library" exported="" name="gagravarr.vorbis.java.tools" level="project" />
+    <orderEntry type="library" exported="" name="vorbisspi1.0.3" level="project" />
   </component>
 </module>
