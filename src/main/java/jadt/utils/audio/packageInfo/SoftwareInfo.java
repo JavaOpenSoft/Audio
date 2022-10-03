@@ -1,13 +1,12 @@
 package jadt.utils.audio.packageInfo;
 import java.io.File;
 import java.net.URISyntaxException;
-
+/**
+ * @author Rishon Jonathan
+ * @version 3.0 Beta 1
+ * @Documentation https://github.com/RishonDev/Audio/wiki
+ * */
 public class SoftwareInfo {
-    /**
-    * @author Rishon Jonathan
-     * @version 3.0 Beta 1
-     * @Documentation https://github.com/RishonDev/Audio/wiki
-    * */
     private static final String version = "v3.0 Beta 2";
     private static final String buildMode=  "Beta";
     private static final String buildDate = "3/10/2022";
