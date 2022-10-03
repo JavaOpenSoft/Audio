@@ -8,9 +8,9 @@ public class SoftwareInfo {
      * @version 3.0 Beta 1
      * @Documentation https://github.com/RishonDev/Audio/wiki
     * */
-    private static final String version = "v3.0";
+    private static final String version = "v3.0 Beta 2";
     private static final String buildMode=  "Beta";
-    private static final String buildDate = "2202.9.8";
+    private static final String buildDate = "3/10/2022";
     private static final String About = "Audio plugin for JUIT Library";
     private static final File icon;
 
